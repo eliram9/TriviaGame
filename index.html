@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Amrican History</title>
+    <!-- Compiled and minified CSS -->
+    <!-- GOOGLE'S MATERIALIZE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Old+Standard+TT:700" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- START NAV -->
+    <!-- <nav>
+            <div class="container">
+                <div class="nav-wrapper">
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a class="waves-effect waves-red btn-large btn-flat tooltipped center-align" href="#" data-position="left" data-delay="50" data-tooltip="Click For Github Repo."><i class="fa fa-github-alt fa-4x" aria-hidden="true" id="icons"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav> -->
+    <!-- END NAV -->
+
+    <div class="parallax-container" id='parall'>
+        <section id="introSection">
+            <h1 class="center-align" id='header'><b>American History</b></h1>
+            <div class="row" id="introCard">
+                <div class="col s6 offset-s3">
+                    <div class="center-align">
+                        <span>How Much Do You Know About The American History?</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="buttonRow">
+                <div class="col s3 offset-s3 center-align">
+                    <a class="waves-effect waves-light btn-large btn-flat tooltipped" data-position="left" data-delay="50" data-tooltip="Click To Start." id="startButton">Start</a>
+                </div>
+                <div class="col s3 center-align">
+                    <a class="modal-trigger waves-effect waves-light btn-large btn-flat tooltipped" data-position="right" data-delay="50" data-tooltip="Click For Instructions." href="#instructionModal" id="instructionButton">Instructions</a>
+                </div>
+            </div>
+            <!-- QUESTIONS -->
+            <section id="questionSpace" class="container">
+                <div class="row">
+                    <div class="col s12 center-align" id="timer">
+                        <!-- TIME -->
+
+                    </div>
+                </div>
+                <div class="row" id="messageSection">
+                    <div class="col s12" id="gameMessage">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="questionContainer" class="col s12 center-align">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="choices" class="col s8 offset-s2 center-align">
+                        <!-- PUSH QUESTIONS IN <p> -->
+                    </div>
+                </div>
+            </section>
+            <!-- END QUESTIONS -->
+        </section>
+        <div class="parallax"><img src="assets/images/flag.png"></div>
+
+    </div>
+
+
+    <!-- Modal Structure -->
+    <div id="instructionModal" class="modal modal-fixed>
+        <div class="modal-content">
+            <h3>Instructions</h3>
+            <p>TIME TO PROVE YOUR KNOWLEDGE</p>
+            <P>LET'S START EARNING POINTS</P>
+        </div>
+    </div>
+
+
+    <!-- JQUERY CDN -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!-- JQUERY UI CDN -->
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <!-- MATERIALIZE JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <!-- TRIVIA JS -->
+    <script src="assets/javascript/trivia.js"></script>
+</body>
+
+</html>

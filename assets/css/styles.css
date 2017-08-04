@@ -1,0 +1,134 @@
+body {
+   
+    font-family: 'Old Standard TT', serif;
+    font-weight: 40;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+}
+
+
+/*****************
+Parallax and Page Styling
+******************/
+
+.parallax-container {
+    height: 900px;
+    padding-bottom: 100px;
+}
+
+#header {
+    color: #fff;
+    font-family: 'Old Standard TT', serif;
+    font-size: 125px;
+    text-shadow: 2px 2px #1E4056;
+    
+}
+
+#parall {
+    height: 1010px;
+    width: 100%;
+}
+
+#introCard {
+    color: white;
+    font-size: 30px;
+    margin: 30px 0;
+    background-color: transparent;
+}
+
+#introSection {
+    margin-top: 40px;
+}
+
+#instructionModal {
+    background-color: #86C3EC;
+    color: #fff;
+    font-size: 17px;
+}
+
+#instructionConfirm:hover {
+    color: #fff;
+}
+
+/**********************
+    BUTTON STYLING
+***********************/
+
+#buttonRow {
+    margin-top: 130px;
+}
+
+.btn-large {
+    border-radius: 6px;
+    border: #fff 4px solid;
+    line-height: 45px;
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn-large:hover {
+    color: #fff;
+    border: #86C3EC 4px solid;
+}
+
+
+/********************
+  QUESTIONS STYLES
+*********************/
+
+#questionSpace {
+    color: #fff;
+    margin-top: 40px;
+    padding: 10px;
+    width: 1000px;
+    height: 400px;
+    text-shadow: 1.5px 1.5px #1E4056;
+}
+
+#question {
+    font-size: 37px;
+}
+
+
+/********************
+*********************/
+
+#timer {
+    color: red;
+    font-size: 47px;
+}
+
+
+/********************
+  ANSWERS STYLES
+*********************/
+
+#choices {
+    font-size: 23px;
+}
+
+.pickAnswer {
+    border: solid 5px #fff;
+}
+
+.pickAnswer, .pickAnswer:hover {
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.pickAnswer:hover {
+    border: solid 5px #86C3EC;
+    cursor: pointer;
+}
