@@ -49,8 +49,8 @@ $(document).ready(function() {
                 clearInterval(myInterval);
                 currentQuestionIndex++;
                 $('#timer').effect("pulsate", {
-                    times: 25
-                }, 1000 * 5);
+                    times: 30
+                }, 1000 * 10);
                 i = 30;
                 postQuestion(currentQuestionIndex);
             } else {
@@ -116,7 +116,7 @@ $(document).ready(function() {
         },
         // question 10
         {
-            "q": "Who was the first American to go into space??",
+            "q": "Who was the first American to go into space?",
             "c": ["Buzz Aldrin", "Alen B. Shaperd", "Neil Amrstrong"],
             "answer": 1
         }
@@ -151,7 +151,8 @@ $(document).ready(function() {
                 currentQuestionIndex++
                 randomCongrats();
 
-            } else {
+            } 
+            else {
                 incorrectCounter++;
                 currentQuestionIndex++;
 
